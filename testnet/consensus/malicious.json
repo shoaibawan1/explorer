@@ -1,0 +1,14 @@
+[
+  {
+    "Address": "oasis1qz0zgynekwrldpv5xz4tmft3c4zm6g7nktkrztqz",
+    "Name": "<img src=x onerror=alert('Name XSS')>",
+    "Description": "<script>alert('Description XSS')</script>",
+    "Origin": "Pwned",
+    "Icon": "javascript:alert('Icon XSS')",
+    "Dapp": {
+      "Url": "javascript:alert('Dapp XSS')",
+      "Button": "Click Me",
+      "Description": "Click to get hacked"
+    }
+  }
+]
